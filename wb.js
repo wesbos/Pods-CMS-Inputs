@@ -20,6 +20,12 @@ $(function() {
 		$('.pods-whole-number').keyup(function() { this.value = this.value.replace(/[^0-9]/g,''); });
 		// Decimal Number
 		$('.pods-decimal-number').keyup(function() { this.value = this.value.replace(/[^0-9.\.]/g,''); });
+		// regular slider
+		$('.pods-slider').slider({
+				slide: function( event, ui ) {
+				$( "#amount1" ).val( ui.value );
+			}
+		});
 		
 	// TEXT
 		// slug

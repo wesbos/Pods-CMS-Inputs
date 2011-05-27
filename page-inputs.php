@@ -32,11 +32,14 @@
 	<h4>Decimal Number</h4>
 		<input type="text" class="pods-decimal-number" />
 	<h4>Slider Simple</h4>
-		<input type="text" class="pods-slider" />
+		<span id="ammount1"></span>
+		<div class="pods-slider pods-slider-simple" />
 	<h4>Sliders Range</h4>
-		<input type="text" class="pods-slider-range" />
+		<div class="pods-slider pods-slider-range" />
 	<h4>Slider Increment</h4>
-		<input type="text" class="pods-slider-increment" />
+		<div class="pods-slider pods-slider-increment" />
+		
+		
 <h3>Taxonomy</h3>
 	<h4>Autocomplete Categories</h4>
 	<?php
