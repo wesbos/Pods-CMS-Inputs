@@ -1,0 +1,25 @@
+/*
+Theme Name: Pods CMS inputs
+*/
+
+
+/* jQuery time picker */
+
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; }
+.ui-timepicker-div dl dd { margin: -25px 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+
+.pods-code {
+	font-family: Courier;}
+
+
+/* not required */ 
+
+h4 {
+	margin: 0;}
+	
+h3 {
+	background: #efefef;
+	padding: 5px;}
